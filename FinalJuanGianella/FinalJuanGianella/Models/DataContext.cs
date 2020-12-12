@@ -12,5 +12,7 @@ namespace FinalJuanGianella.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<FinalJuanGianella.Models.FinalClase> FinalClases { get; set; }
     }
 }
